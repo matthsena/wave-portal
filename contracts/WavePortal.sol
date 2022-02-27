@@ -13,7 +13,7 @@ contract WavePortal {
 
     function wave() public {
       totalWaves += 1;
-      console.log("%s has waved!", msg.sender);
+      console.log("%s has waved!", msg.sender); // addrs who interact with contract
     }
 
     function getTotalWaves() public view returns (uint256) {
